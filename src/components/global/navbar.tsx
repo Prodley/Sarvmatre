@@ -6,7 +6,7 @@ import { FC, SVGProps } from "react";
 
 const Navbar: FC = () => {
   return (
-    <div className="flex items-center justify-between px-16 py-6 bg-white dark:bg-gray-800">
+    <div className="flex items-center justify-between px-4  md:px-16 py-6 bg-white dark:bg-gray-800">
       <Link href="#" className="flex items-center gap-2" prefetch={false}>
         {/* <MountainIcon className="h-6 w-6" /> */}
         <Image

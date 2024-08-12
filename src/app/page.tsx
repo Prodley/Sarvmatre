@@ -1,3 +1,6 @@
+import { Aboutsec } from "@/components/aboutsec";
+import { Offers } from "@/components/offers";
+import { Ourvalues } from "@/components/ourvalues";
 import Image from "next/image";
 
 export default function Home() {
@@ -45,7 +48,25 @@ export default function Home() {
             </div>
           </div>
         </div>
+        {/* <Image
+          src={'/indiamap.png'}
+          width={200}
+          height={200}
+          alt="Company logo"
+        /> */}
       {/* </HeroHighlight> */}
+      <div className="container">
+    <Aboutsec/> 
+      </div>
+      <div className="container ">
+      <Ourvalues/>
+      </div>
+      <div className="bg-[#1a1a1a]">
+
+      <div className="container ">
+        <Offers/>
+      </div>
+      </div>
     </section>
   </>
   );
