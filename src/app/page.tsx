@@ -1,8 +1,10 @@
 import { Aboutsec } from "@/components/aboutsec";
+import { Difference } from "@/components/differece";
 import Marquee from "@/components/magicui/marquee";
 import { MarqueeDemo } from "@/components/marq";
 import { Offers } from "@/components/offers";
 import { Ourvalues } from "@/components/ourvalues";
+import { Problems } from "@/components/problems";
 import Image from "next/image";
 
 export default function Home() {
@@ -76,6 +78,15 @@ export default function Home() {
             <MarqueeDemo />
           </div>
         </div>
+        <div className="py-16 container">
+          <Image
+            src={"/prodframe.png"}
+            width={1500}
+            height={1500}
+            alt="Prodleylogo"
+            className="object-contain object-center w-full h-auto"
+          />
+        </div>
         <div className="bg-[#1a1a1a] py-16">
           <div className="container ">
             <Offers />
@@ -97,6 +108,14 @@ export default function Home() {
               />
             </div>
           </div>
+        </div>
+        <div className="bg-blac">
+        <div className="container">
+          <Problems/>
+        </div>
+        </div>
+        <div className="container">
+          <Difference/>
         </div>
       </section>
     </>
