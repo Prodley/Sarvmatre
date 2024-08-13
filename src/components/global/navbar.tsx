@@ -24,7 +24,7 @@ const Navbar: FC = () => {
         <Link href="/aboutus" className="text-xl font-medium hover:underline underline-offset-4" prefetch={false}>
           About
         </Link>
-        <Link href="#" className="text-xl font-medium hover:underline underline-offset-4" prefetch={false}>
+        <Link href="/investor" className="text-xl font-medium hover:underline underline-offset-4" prefetch={false}>
           Investor Relation
         </Link>
         <Link href="/career" className="text-xl font-medium hover:underline underline-offset-4" prefetch={false}>
