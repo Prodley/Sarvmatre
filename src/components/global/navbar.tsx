@@ -18,19 +18,19 @@ const Navbar: FC = () => {
         <span className="text-lg font-semibold"></span>
       </Link>
       <div className="hidden md:flex gap-4">
-        <Link href="#" className="text-xl font-medium hover:underline underline-offset-4" prefetch={false}>
+        <Link href="/" className="text-xl font-medium hover:underline underline-offset-4" prefetch={false}>
           Home
         </Link>
-        <Link href="#" className="text-xl font-medium hover:underline underline-offset-4" prefetch={false}>
+        <Link href="/aboutus" className="text-xl font-medium hover:underline underline-offset-4" prefetch={false}>
           About
         </Link>
         <Link href="#" className="text-xl font-medium hover:underline underline-offset-4" prefetch={false}>
-          Services
+          Investor Relation
         </Link>
-        <Link href="#" className="text-xl font-medium hover:underline underline-offset-4" prefetch={false}>
-          Portfolio
+        <Link href="/career" className="text-xl font-medium hover:underline underline-offset-4" prefetch={false}>
+          Career
         </Link>
-        <Link href="#" className="text-xl font-medium hover:underline underline-offset-4" prefetch={false}>
+        <Link href="/contactus" className="text-xl font-medium hover:underline underline-offset-4" prefetch={false}>
           Contact
         </Link>
       </div>
