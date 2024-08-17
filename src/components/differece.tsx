@@ -4,7 +4,7 @@ export function Difference() {
   return (
     <div className="bg-background py-12 md:py-24">
       <div>
-        <h1>How we are different</h1>
+        <h1 className="text-4xl font-bold text-[#01554E]">How we are different</h1>
       </div>
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
         {features.map((feature, index) => (

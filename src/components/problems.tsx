@@ -17,7 +17,7 @@ export function Problems() {
         <p className="text-lg">Creativity meets technology</p>
       </div>
       <div className="flex flex-col justify-center w-1/2 space-y-8">
-        <h2 className="text-3xl font-bold mb-4">The Problem We Solve</h2>
+        <h2 className="text-4xl font-bold mb-4 text-[#01554E]">The Problem We Solve</h2>
         <div className="flex items-center space-x-4 border-b border-white pb-4">
           <div className="flex items-center justify-center w-16 h-16 rounded-full overflow-hidden">
             <Image
@@ -30,7 +30,7 @@ export function Problems() {
             />
           </div>
           <div>
-            <h2 className="text-xl font-bold">Discovery</h2>
+            <h2 className="text-xl font-bold text-[#4EA39C]">Discovery</h2>
             <p>
               We create digital products using modern design techniques. The works we implement are easy to understand,
               aesthetic, interactive, and functional.

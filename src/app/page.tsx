@@ -17,13 +17,13 @@ export default function Home() {
           <div className="container">
             <div className="flex flex-col ">
               <div className="flex justify-start sm:justify-end">
-                <p className="text-5xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl  text-primary font-bold">
+                <p className="text-5xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl  text-[#01554E] text-primary font-bold">
                   # BUILDING INDIA&apos;S
                 </p>
               </div>
               <div className=" flex ">
                 <div>
-                  <div className="w-[60%] text-xl font-mono xl:flex hidden">
+                  <div className="w-[60%] text-[#E2F1F0 ] text-xl font-mono xl:flex hidden">
                     {" "}
                     At Sarvmatre International, we provide innovative solutions
                     and unwavering support to businesses of all sizes and
@@ -34,17 +34,18 @@ export default function Home() {
                   </div>
                 </div>
                 <div className=" flex justify-end items-center">
-                  <p className="text-5xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl   text-primary font-bold">
+                  <p className="text-5xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl text-[#01554E]  text-primary font-bold">
                     GLOBAL
                   </p>
                 </div>
               </div>
               <div className=" flex justify-start sm:justify-end">
-                <p className="text-5xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl  text-primary font-bold">
+                <p className="text-5xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl text-[#01554E] text-primary font-bold">
                   MARKETPLACE
                 </p>
               </div>
-              <div className="w-full text-xl font-mono flex xl:hidden ">
+              {/* WIP -- Color  */}
+              <div className="w-full text-lg text-[#E2F1F0 ] font-mono flex xl:hidden ">
                 {" "}
                 At Sarvmatre International, we provide innovative solutions and
                 unwavering support to businesses of all sizes and sectors.
@@ -81,8 +82,8 @@ export default function Home() {
         <div className="py-16 container">
           <Image
             src={"/prodframe.png"}
-            width={1500}
-            height={1500}
+            width={1800}
+            height={1800}
             alt="Prodleylogo"
             className="object-contain object-center w-full h-auto"
           />

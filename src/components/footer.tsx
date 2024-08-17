@@ -4,7 +4,7 @@ import { FC, SVGProps } from "react";
 
 export const Footer: FC = () => {
   return (
-    <footer className="bg-muted pt-12 pb-16">
+    <footer className="bg-muted bg-[#4EA39C] pt-12 pb-16">
       <div className="container grid grid-cols-1 gap-12 md:grid-cols-2">
         <div className="space-y-4">
           <Link href="#" className="flex items-center gap-2" prefetch={false}>
@@ -17,7 +17,7 @@ export const Footer: FC = () => {
               className="object-contain object-center"
             />
           </Link>
-          <p className="text-muted-foreground">
+          <p className="text-white">
             Sarvmatre International Private Limited Jain Niwas, <br /> Tali
             Morh, Near Doordarshan Kendra, Old Janipur, <br /> Jammu, J&K, India
             - 180007
@@ -28,17 +28,17 @@ export const Footer: FC = () => {
         <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
           <div className="space-y-2">
             <h4 className="text-sm font-medium">Company</h4>
-            <nav className="grid gap-2">
+            <nav className="grid gap-2 text-white">
               <Link
                 href="#"
-                className="text-sm text-muted-foreground hover:underline"
+                className="text-sm   hover:underline"
                 prefetch={false}
               >
                 About
               </Link>
               <Link
                 href="#"
-                className="text-sm text-muted-foreground hover:underline"
+                className="text-sm  hover:underline"
                 prefetch={false}
               >
                 Team
