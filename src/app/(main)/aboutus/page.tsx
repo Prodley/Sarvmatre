@@ -1,6 +1,7 @@
+import AboutSarv from "@/components/global/aboutSar";
 import { OurValues } from "@/components/our-values";
 import React from "react";
-
+import Image from "next/image";
 const Page = () => {
   return (
     <>
@@ -38,6 +39,45 @@ const Page = () => {
           <OurValues />
         </div>
       </div>
+      <AboutSarv />
+      <section className="container mx-auto px-4 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch min-h-[400px]">
+          {/* First column: Top-aligned text */}
+          <div className="flex flex-col justify-start">
+            <h2 className="text-6xl font-bold mb-4">Meet Our Founders</h2>
+            {/* <p className="text-gray-600">
+            This is some text content that is aligned to the top of the column.
+            It demonstrates how we can position elements at the start of a flex container.
+          </p> */}
+          </div>
+
+          {/* Second column: Centered rounded photo */}
+          <div className="flex items-center justify-center">
+            <div className="">
+              <Image
+                src="/directorimage.png"
+                alt="director photo"
+                width={250}
+                height={300}
+                className="object-cover   rounded-full overflow-hidden flex justify-center"
+              />
+            </div>
+          </div>
+
+          {/* Third column: Bottom-aligned paragraphs */}
+          <div className="flex flex-col justify-end">
+            <h2 className="text-6xl font-bold mb-4">Sorabh Jain</h2>
+            <h1 className="text-2xl font-bold">
+              Founder and Directors 
+            </h1>
+            <p className="text-gray-600 mb-4">
+              B.E, PGD 14+ years of experience
+              in Business Operations, Project Management, Sales & Marketing,
+              Brand Building, Leadership and People Management
+            </p>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
